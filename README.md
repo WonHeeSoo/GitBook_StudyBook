@@ -1,8 +1,13 @@
-# My Awesome Book
+# Study Book
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+정리를 위해 만든 GitBook입니다.
 
-개인적인 공부
+## **List**
 
-테스트
+* #### Linux
+* #### Git
+* #### Github
+* #### Help & Link
+
+
 
