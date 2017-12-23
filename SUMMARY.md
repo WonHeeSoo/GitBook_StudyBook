@@ -16,11 +16,16 @@
 
 * [GitHub Command](github/github-command.md)
 
+## Coding Style
+
+* [Coding Style](coding-style/coding-style.md)
+  * [Camel Notation](coding-style/camel-notation.md)
+  * [Snake Notaion](coding-style/snake-notaion.md)
+  * [Hungarian Notaion](coding-style/hungarian-notaion.md)
+
 ## Help & Link
 
-* \[Git\]\([https://git-scm.com/](https://git-scm.com/%29\)
-* \[GitBook\]\([https://www.gitbook.com/](https://www.gitbook.com/%29\)
-* \[GitHub\]\([https://github.com/](https://github.com/%29\)
-
-
+* [https://git-scm.com/](https://git-scm.com/%29\)
+* [https://www.gitbook.com/](https://www.gitbook.com/%29\)
+* [https://github.com/](https://github.com/%29\)
 
