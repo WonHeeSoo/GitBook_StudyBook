@@ -50,10 +50,16 @@
 | \_이탤릭체\_ | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체 |
 | \*\*볼드체\*\* | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체 |
 | \_\_볼드체\_\_ | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체 |
+|\~\~취소선\~\~|&lt;del&gt;취소선&lt;/del&gt;| 취소선 |
+| \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
+| \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
 
 _이탤릭체_
-
 **볼드체**
+~~취소선~~
+윗첨자^윗첨자^
+아래첨자~아래첨자~
+
 
 ---
 
@@ -72,18 +78,6 @@ _이탤릭체_
 
 ---
 
-| Markdown Syntax | HTML Tag | Description |
-| :--- | :--- | :--- |
-| \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
-| \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
-|\~\~취소선\~\~|&lt;del&gt;취소선&lt;/del&gt;| 취소선 |
-
-윗첨자^윗첨자^
-아래첨자~아래첨자~
-~~취소선~~
-
----
-
 ## Quoting text
 
 | Markdown Syntax | HTML Tag | Description |
@@ -99,7 +93,10 @@ _이탤릭체_
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[링크제목]\(링크주소) | | 링크걸기 |
-[링크제목](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
+잘못된 예
+[링크제목](링크주소)
+올바른 예
+[Gitbook StudyBook](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
 
 ---
 
@@ -108,25 +105,58 @@ _이탤릭체_
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \- 리스트1 | | 목차 |
-| \* 리스트 | | 목차 |
-| 1\. 리스트 | | 목차 |
-- 리스트1
-\ \ - ㄴㅇㄹㄴㅇㄹ
-* 리스트1
-  * 리스트3
-1. 리스트3
-2. 리스트3
+| \* 리스트2 | | 목차 |
+| 1\. 리스트3 | | 목차 |
 
+- 리스트1
+* 리스트2
+1. 리스트3
+
+리스트를 만든 상태에서 바로 아래에 스페이스 두번정도의 공백(  )을 한 뒤 리스트(\-)를 사용하면 기존 리스트의 하위 리스트를 만들수 있다.
+- 리스트1
+  * 리스트2
+    1. 리스트3
+
+---
+
+## Task lists
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| | | 체크박스 |
+
+---
+
+## Table
+```
+| 제목1 | 제목2 |
+| :-: | :-: |
+| 내용1입니다 | 내용2입니다 |
+```
+| 제목1 | 제목2 |
+|  :-:  |  :-:  |
+| 내용1입니다 | 내용2입니다 |
 ---
 
 ## Image
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \!\[제목]\(주소) | | 이미지 |
+| \!\[제목]\(주소) | | 이미지 출력 |
+
 잘못된 예
 ![제목](주소)
 올바른 예
-![]
+![ImageExample](https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/Image%20Example.PNG?raw=true)
+
+---
+
+## Video
+
+
+
+
+---
+
+## Using emoji
 
 ---
 
@@ -136,18 +166,6 @@ _이탤릭체_
 
 ---
 
-추가할 목록
-
-Using emoji
-Task lists
-
-video
-\|제목1\|제목2\|
-\|:-:\|:-:\|
-\|내용1\|내용2\|
-...
-
----
 ### 참고
 - [GitHub](https://help.github.com/categories/writing-on-github/)
 - [Markdown:Syntax](https://daringfireball.net/projects/markdown/syntax)
