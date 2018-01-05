@@ -1,5 +1,8 @@
 # Markdown Command
 
+현재 추가 중입니다.
+https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
+
 본인이 사용하는 마크다운 도구에 따라 사용이 불가한 방법도 있습니다.
 
 ---
@@ -54,7 +57,7 @@ _이탤릭체_
 | :--- | :--- | :--- |
 | \`인라인 코드블럭1\` | &lt;code&gt;인라인 코드블럭1&lt;/code&gt; | 인라인 코드 블럭 |
 | \`\`\`C++(해당언어)          코드블럭2\`\`\` | &lt;pre&gt;코드블럭2&lt;/pre&gt; | 코드 블럭 |
-| ~C++(해당언어)     코드블럭2~ | &lt;pre&gt;코드블럭2&gt;&lt;/pre&gt; | 코드 블럭 |
+| \~C++(해당언어)     코드블럭2\~ | &lt;pre&gt;코드블럭2&gt;&lt;/pre&gt; | 코드 블럭 |
 
 `인라인 코드블럭1`
 
@@ -74,8 +77,8 @@ _이탤릭체_
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| ^윗첨자^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
-| ~아랫첨자~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
+| \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
+| \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
 
 ---
 
