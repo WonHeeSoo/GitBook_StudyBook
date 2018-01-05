@@ -1,5 +1,7 @@
 # Markdown Command
 
+본인이 사용하는 마크다운 도구에 따라 사용이 불가한 방법도 있습니다.
+
 ---
 
 | Markdown Syntax | HTML Tag | Description |
@@ -79,4 +81,4 @@ _이탤릭체_
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| [^1\] |  | 주석 |
+| \[^1\] |  | 주석 |
