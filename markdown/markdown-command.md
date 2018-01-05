@@ -1,11 +1,13 @@
 # Markdown Command
 
-현재 추가 중입니다.
-https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
+현재 추가 중입니다.  
+[GitBook Public Study Book](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
 
 본인이 사용하는 마크다운 도구에 따라 사용이 불가한 방법도 있습니다.
 
 ---
+
+## Headings
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
@@ -40,6 +42,8 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 
 ---
 
+## Styling text
+
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \*이탤릭체\* | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체 |
@@ -53,16 +57,17 @@ _이탤릭체_
 
 ---
 
+## Quoting code
+
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \`인라인 코드블럭1\` | &lt;code&gt;인라인 코드블럭1&lt;/code&gt; | 인라인 코드 블럭 |
-| \`\`\`C++(해당언어)          코드블럭2\`\`\` | &lt;pre&gt;코드블럭2&lt;/pre&gt; | 코드 블럭 |
-| \~C++(해당언어)     코드블럭2\~ | &lt;pre&gt;코드블럭2&gt;&lt;/pre&gt; | 코드 블럭 |
+| \`인용 코드1\` | &lt;code&gt;인용 코드1&lt;/code&gt; | 인용 코드1 |
+| \`\`\`C++(해당언어)          인용 코드2\`\`\` | &lt;pre&gt;인용 코드2&lt;/pre&gt; | 인용 코드2 |
 
-`인라인 코드블럭1`
+`인용 코드1`
 
-```cpp
-코드블럭2
+```C++
+인용 코드2
 ```
 
 ---
@@ -79,9 +84,38 @@ _이탤릭체_
 | :--- | :--- | :--- |
 | \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
 | \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
+|\~\~취소선\~\~|&lt;del&gt;취소선&lt;/del&gt;| 취소선 |
+
+윗첨자^윗첨자^
+아래첨자~아래첨자~
+~~취소선~~
+
+---
+
+## Quoting text
+
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| \> 인용구 | | 인용구 |
+
+> 인용구
+
+---
+
+## Links
+
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| \[링크제목]\(링크주소) | | 링크걸기 |
+[링크제목](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
 
 ---
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[^1\] |  | 주석 |
+
+---
+### 참고
+- [GitHub](https://help.github.com/categories/writing-on-github/)
+- [Markdown:Syntax](https://daringfireball.net/projects/markdown/syntax)
