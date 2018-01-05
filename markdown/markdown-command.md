@@ -103,6 +103,33 @@ _이탤릭체_
 
 ---
 
+## Lists
+
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| \- 리스트1 | | 목차 |
+| \* 리스트 | | 목차 |
+| 1\. 리스트 | | 목차 |
+- 리스트1
+\ \ - ㄴㅇㄹㄴㅇㄹ
+* 리스트1
+  * 리스트3
+1. 리스트3
+2. 리스트3
+
+---
+
+## Image
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| \!\[제목]\(주소) | | 이미지 |
+잘못된 예
+![제목](주소)
+올바른 예
+![]
+
+---
+
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[^1\] |  | 주석 |
@@ -111,10 +138,9 @@ _이탤릭체_
 
 추가할 목록
 
-Lists
 Using emoji
 Task lists
-image
+
 video
 \|제목1\|제목2\|
 \|:-:\|:-:\|
