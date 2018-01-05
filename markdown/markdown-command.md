@@ -72,14 +72,6 @@ _이탤릭체_
 
 ---
 
-\|제목1\|제목2\|
-
-\|:-:\|:-:\|
-
-\|내용1\|내용2\|
-
----
-
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
@@ -114,6 +106,20 @@ _이탤릭체_
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[^1\] |  | 주석 |
+
+---
+
+추가할 목록
+
+Lists
+Using emoji
+Task lists
+image
+video
+\|제목1\|제목2\|
+\|:-:\|:-:\|
+\|내용1\|내용2\|
+...
 
 ---
 ### 참고
