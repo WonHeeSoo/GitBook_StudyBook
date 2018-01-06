@@ -67,7 +67,7 @@ _이탤릭체_
 
 ---
 
-## Quoting code
+## Quoting code, Fenced code blocks
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
@@ -103,6 +103,7 @@ M인용 코드2
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[링크제목]\(링크주소) | | 링크걸기(Link) |
+| 링크주소 | | 링크걸기(Link automatic) |
 
 
 #### 잘못된 예
@@ -112,6 +113,8 @@ M인용 코드2
 #### 올바른 예
 
 [Gitbook StudyBook](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
+
+https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 
 ---
 
@@ -211,8 +214,6 @@ M인용 코드2
 | 내용1 | 내용2|
 | <center>내용1</center> | <center>내용2</center> |
 
-
-
 ---
 
 ## Image
@@ -250,11 +251,87 @@ ___
 
 <hr/>
 
+---
+
+## Backslash escapes
+
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| \\\\ |  | backslash |
+| \\\` |  | backtick |
+| \\\* |  | asterisk |
+| \\\_ |  | underscore |
+| \\\{ |  | curly braces |
+| \\\} |  | curly braces |
+| \\\[ |  | square brackets |
+| \\\] |  | square brackets |
+| \\\( |  | parentheses |
+| \\\) |  | parentheses |
+| \\\# |  | hash mark |
+| \\\+ |  | plus sign |
+| \\\- |  | minus sign (hyphen) |
+| \\\. |  | dot |
+| \\\! |  | exclamation mark |
+
+\\
+
+\`
+
+\*
+
+\_
+
+\{ \}
+
+\[ \]
+
+\( \)
+
+\#
+
+\+
+
+\-
+
+\.
+
+\!
+
+---
+
+## Username \@mentions \( GitHub Flavored Markdown \)
+
+`@유저닉네임`을 사용하면 그 유저닉네임을 가진 사람에게 댓글을 보도록 알릴 수 있습니다.
+혹은 조직 내의 팀에게도 사용 가능합니다.
+
+#### 원문
+> Typing an \@ symbol, followed by a username, will
+notify that person to come and view the comment\.
+This is called an “@mention”, because you’re
+mentioning the individual\. You can also \@mention
+teams within an organization\.
 
 
 ---
 
-## Using emoji
+## Using emoji \( GitHub Flavored Markdown \)
+
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| `:+1:` |  | +1 |
+| `:sparkles:` |  | sparkles |
+| `:camel:` |  | camel |
+| `:tada:` |  | tada |
+| `:rocket:` |  | rocket |
+| `:metal:` |  | metal |
+| `:octocat:` |  | octocat |
+
+:+1: :sparkles: :camel: :tada:
+:rocket: :metal: :octocat:
+
+#### 추가적인 Emoji
+
+[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ---
 
@@ -268,4 +345,5 @@ Footnotes
 
 ### 참고
 - [GitHub](https://help.github.com/categories/writing-on-github/)
-- [Markdown:Syntax](https://daringfireball.net/projects/markdown/syntax)
+- [Github-cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
+-  [Markdown:Syntax](https://daringfireball.net/projects/markdown/syntax)
