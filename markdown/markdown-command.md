@@ -55,9 +55,13 @@
 | \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
 
 _이탤릭체_
+
 **볼드체**
+
 ~~취소선~~
+
 윗첨자^윗첨자^
+
 아래첨자~아래첨자~
 
 
@@ -93,9 +97,13 @@ _이탤릭체_
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[링크제목]\(링크주소) | | 링크걸기 |
+
 잘못된 예
+
 [링크제목](링크주소)
+
 올바른 예
+
 [Gitbook StudyBook](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
 
 ---
@@ -143,8 +151,11 @@ _이탤릭체_
 | \!\[제목]\(주소) | | 이미지 출력 |
 
 잘못된 예
+
 ![제목](주소)
+
 올바른 예
+
 ![ImageExample](https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/Image%20Example.PNG?raw=true)
 
 ---
