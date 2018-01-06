@@ -239,9 +239,9 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \-\-\- | &lt;hr\/&gt; | 수평선 |
-| \*\*\* | &lt;hr\/&gt; | 수평선 |
-| \_\_\_ | &lt;hr\/&gt; | 수평선 |
+| \-\-\- | &lt;hr/&gt; | 수평선 |
+| \*\*\* | &lt;hr/&gt; | 수평선 |
+| \_\_\_ | &lt;hr/&gt; | 수평선 |
 
 ---
 
@@ -255,23 +255,23 @@ ___
 
 ## Backslash escapes
 
-| Markdown Syntax | HTML Tag | Description |
-| :--- | :--- | :--- |
-| \\\\ |  | backslash |
-| \\\` |  | backtick |
-| \\\* |  | asterisk |
-| \\\_ |  | underscore |
-| \\\{ |  | curly braces |
-| \\\} |  | curly braces |
-| \\\[ |  | square brackets |
-| \\\] |  | square brackets |
-| \\\( |  | parentheses |
-| \\\) |  | parentheses |
-| \\\# |  | hash mark |
-| \\\+ |  | plus sign |
-| \\\- |  | minus sign (hyphen) |
-| \\\. |  | dot |
-| \\\! |  | exclamation mark |
+| Markdown Syntax | Description |
+| :--- | :--- |
+| \\\\ | backslash |
+| \\\` | backtick |
+| \\\* | asterisk |
+| \\\_ | underscore |
+| \\\{ | curly braces |
+| \\\} | curly braces |
+| \\\[ | square brackets |
+| \\\] | square brackets |
+| \\\( | parentheses |
+| \\\) | parentheses |
+| \\\# | hash mark |
+| \\\+ | plus sign |
+| \\\- | minus sign (hyphen) |
+| \\\. | dot |
+| \\\! | exclamation mark |
 
 \\
 
@@ -299,16 +299,16 @@ ___
 
 ---
 
-## Username \@mentions \( GitHub Flavored Markdown \)
+## Username @mentions \( GitHub Flavored Markdown \)
 
 `@유저닉네임`을 사용하면 그 유저닉네임을 가진 사람에게 댓글을 보도록 알릴 수 있습니다.
 혹은 조직 내의 팀에게도 사용 가능합니다.
 
 #### 원문
-> Typing an \@ symbol, followed by a username, will
+> Typing an @ symbol, followed by a username, will
 notify that person to come and view the comment\.
 This is called an “@mention”, because you’re
-mentioning the individual\. You can also \@mention
+mentioning the individual\. You can also @mention
 teams within an organization\.
 
 
@@ -316,15 +316,15 @@ teams within an organization\.
 
 ## Using emoji \( GitHub Flavored Markdown \)
 
-| Markdown Syntax | HTML Tag | Description |
-| :--- | :--- | :--- |
-| `:+1:` |  | +1 |
-| `:sparkles:` |  | sparkles |
-| `:camel:` |  | camel |
-| `:tada:` |  | tada |
-| `:rocket:` |  | rocket |
-| `:metal:` |  | metal |
-| `:octocat:` |  | octocat |
+| Markdown Syntax | Description |
+| :--- | :--- |
+| `:+1:` | +1 |
+| `:sparkles:` | sparkles |
+| `:camel:` | camel |
+| `:tada:` | tada |
+| `:rocket:` | rocket |
+| `:metal:` | metal |
+| `:octocat:` | octocat |
 
 :+1: :sparkles: :camel: :tada:
 :rocket: :metal: :octocat:
