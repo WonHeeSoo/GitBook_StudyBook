@@ -71,14 +71,20 @@ _이탤릭체_
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \`인용 코드1\` | &lt;code&gt;인용 코드1&lt;/code&gt; | 인용 코드1 |
-| \`\`\`C++(해당언어)          인용 코드2\`\`\` | &lt;pre&gt;인용 코드2&lt;/pre&gt; | 인용 코드2 |
+| \`M인용 코드1\` | &lt;code&gt;H인용 코드1&lt;/code&gt; | 인용 코드1 |
+| \`\`\`C++(해당언어)          M인용 코드2\`\`\` | &lt;pre&gt;H인용 코드2&lt;/pre&gt; | 인용 코드2 |
+| \`\`\`C++(해당언어)          M인용 코드3\`\`\` | &lt;pre&gt;&lt;code&gt;H인용 코드3&lt;/code&gt;&lt;/pre&gt; | 인용 코드3 |
 
-`인용 코드1`
+`M인용 코드1`
+
+<code>H인용 코드1</code>
 
 ```C++
-인용 코드2
+M인용 코드2
 ```
+<pre>H인용 코드2</pre>
+
+<pre><code>H인용 코드3</code></pre>
 
 ---
 
@@ -98,6 +104,7 @@ _이탤릭체_
 | :--- | :--- | :--- |
 | \[링크제목]\(링크주소) | | 링크걸기(Link) |
 
+
 #### 잘못된 예
 
 [링크제목](링크주소)
@@ -113,14 +120,16 @@ _이탤릭체_
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \- 리스트1 | &lt;ul&gt;&lt;li&gt;리스트1&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
-| \* 리스트2 | &lt;ul&gt;&lt;li&gt;리스트1&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
-| 1\. 리스트3 | &lt;ol&gt;&lt;li&gt;리스트1&lt;/li&gt;&lt;/ol&gt; | 목록(ordered list) |
+| \* 리스트2 | &lt;ul&gt;&lt;li&gt;리스트2&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
+| \+ 리스트3 | &lt;ul&gt;&lt;li&gt;리스트3&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
+| 1\. 리스트4 | &lt;ol&gt;&lt;li&gt;리스트4&lt;/li&gt;&lt;/ol&gt; | 목록(ordered list) |
 
 #### Markdown Command Only
 
 - 리스트1
 * 리스트2
-1. 리스트3
++ 리스트3
+1. 리스트4
 
 #### HTML Tag Only
 
@@ -223,6 +232,23 @@ _이탤릭체_
 
 ## Video
 
+---
+
+## Horizontal Rules
+
+| Markdown Syntax | HTML Tag | Description |
+| :--- | :--- | :--- |
+| \-\-\- | &lt;hr\/&gt; | 수평선 |
+| \*\*\* | &lt;hr\/&gt; | 수평선 |
+| \_\_\_ | &lt;hr\/&gt; | 수평선 |
+
+---
+
+***
+
+___
+
+<hr/>
 
 
 
@@ -234,9 +260,11 @@ _이탤릭체_
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \[^1\] |  | 주석 |
+| \[^1\] |  | 각주 |
 
 ---
+
+Footnotes
 
 ### 참고
 - [GitHub](https://help.github.com/categories/writing-on-github/)
