@@ -7,16 +7,16 @@
 
 ---
 
-## Headings
+## Headings.
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \# 헤더1 | &lt;h1&gt;헤더1&lt;/h1&gt; | 문서의 제목(큰 제목), 글머리 |
-| \#\# 헤더2 | &lt;h2&gt;헤더2&lt;/h2&gt; | 문서의 제목(작은 제목), 글머리 |
-| \#\#\# 헤더3 | &lt;h3&gt;헤더3&lt;/h3&gt; | 글머리 |
-| \#\#\#\# 헤더4 | &lt;h4&gt;헤더4&lt;/h4&gt; | 글머리 |
-| \#\#\#\#\# 헤더5 | &lt;h5&gt;헤더5&lt;/h5&gt; | 글머리 |
-| \#\#\#\#\#\# 헤더6 | &lt;h6&gt;헤더6&lt;/h6&gt; | 글머리 |
+| \# 헤더1 | &lt;h1&gt;헤더1&lt;/h1&gt; | 문서의 제목(큰 제목), 글머리1(Head1) |
+| \#\# 헤더2 | &lt;h2&gt;헤더2&lt;/h2&gt; | 문서의 제목(작은 제목), 글머리2(Head2) |
+| \#\#\# 헤더3 | &lt;h3&gt;헤더3&lt;/h3&gt; | 글머리3(Head3) |
+| \#\#\#\# 헤더4 | &lt;h4&gt;헤더4&lt;/h4&gt; | 글머리4(Head4) |
+| \#\#\#\#\# 헤더5 | &lt;h5&gt;헤더5&lt;/h5&gt; | 글머리5(Head5) |
+| \#\#\#\#\#\# 헤더6 | &lt;h6&gt;헤더6&lt;/h6&gt; | 글머리6(Head6) |
 
 # 헤더1
 
@@ -46,10 +46,10 @@
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \*이탤릭체\* | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체 |
-| \_이탤릭체\_ | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체 |
-| \*\*볼드체\*\* | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체 |
-| \_\_볼드체\_\_ | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체 |
+| \*이탤릭체\* | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체(Italic) |
+| \_이탤릭체\_ | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체(Italic) |
+| \*\*볼드체\*\* | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체(Bold) |
+| \_\_볼드체\_\_ | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체(Bold) |
 |\~\~취소선\~\~|&lt;del&gt;취소선&lt;/del&gt;| 취소선 |
 | \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
 | \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
@@ -96,7 +96,7 @@ _이탤릭체_
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \[링크제목]\(링크주소) | | 링크걸기 |
+| \[링크제목]\(링크주소) | | 링크걸기(Link) |
 
 #### 잘못된 예
 
