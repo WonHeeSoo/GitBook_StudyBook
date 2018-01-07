@@ -47,12 +47,17 @@
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \*이탤릭체\* | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체(Italic) |
-| \_이탤릭체\_ | &lt;em&gt;이탤릭체&lt;/em&gt; | 이탤릭체(Italic) |
+| \_이탤릭체\_ | 위와 같음 | 이탤릭체(Italic) |
 | \*\*볼드체\*\* | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체(Bold) |
-| \_\_볼드체\_\_ | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체(Bold) |
+| \_\_볼드체\_\_ | 위와 같음 | 볼드체(Bold) |
 |\~\~취소선\~\~|&lt;del&gt;취소선&lt;/del&gt;| 취소선 |
+| 위와 같음 |&lt;strike&gt;취소선&lt;/strike&gt;| 취소선 |
 | \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
 | \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
+||&lt;small&gt;작은 글씨&lt;/small&gt;|작은 글씨|
+|\=\=강조\=\=||강조|
+
+
 
 _이탤릭체_
 
@@ -64,6 +69,9 @@ _이탤릭체_
 
 아래첨자~아래첨자~
 
+<small>작은 글씨</small>
+
+==gg==
 
 ---
 
@@ -73,7 +81,7 @@ _이탤릭체_
 | :--- | :--- | :--- |
 | \`Mark인용 코드1\` | &lt;code&gt;Tag인용 코드1&lt;/code&gt; | 인용 코드1 |
 | \`\`\`C++(해당언어)          Mark인용 코드2\`\`\` | &lt;pre&gt;Tag인용 코드2&lt;/pre&gt; | 인용 코드2 |
-| \`\`\`C++(해당언어)          Mark인용 코드3\`\`\` | &lt;pre&gt;&lt;code&gt;Tag인용 코드3&lt;/code&gt;&lt;/pre&gt; | 인용 코드3 |
+| 위와 같음 | &lt;pre&gt;&lt;code&gt;Tag인용 코드3&lt;/code&gt;&lt;/pre&gt; | 인용 코드3 |
 
 `Mark인용 코드1`
 
@@ -102,9 +110,10 @@ Mark인용 코드2
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \[링크제목]\(링크주소) | | 링크걸기(Link) |
+| \[링크제목]\(링크주소) | &lt;a href\=\"링크주소\"&gt;링크제목&lt;\/a&gt; | 링크걸기(Link) |
 | 링크주소 | | 링크걸기(Link automatic) |
 
+<a href="https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html">링크걸기</a>
 
 #### 잘못된 예
 
@@ -123,8 +132,8 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \- 리스트1 | &lt;ul&gt;&lt;li&gt;리스트1&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
-| \* 리스트2 | &lt;ul&gt;&lt;li&gt;리스트2&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
-| \+ 리스트3 | &lt;ul&gt;&lt;li&gt;리스트3&lt;/li&gt;&lt;/ul&gt; | 목록(unordered list) |
+| \* 리스트2 | 위와 같음 | 목록(unordered list) |
+| \+ 리스트3 | 위와 같음 | 목록(unordered list) |
 | 1\. 리스트4 | &lt;ol&gt;&lt;li&gt;리스트4&lt;/li&gt;&lt;/ol&gt; | 목록(ordered list) |
 
 #### Markdown Command Only
@@ -135,10 +144,51 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 1. 리스트4
 
 #### HTML Tag Only
+```
+<ol>
+  <li>리스트4-1</li>
+  <li>리스트4-2</li>
+</ol>
+```
+
+<ol>
+	<li>리스트4-1</li>
+  <li>리스트4-2</li>
+</ol>
+
+```
+<ul>
+  <li>리스트1-1</li>
+  <li>리스트1-1</li>
+  <li>리스트1-1</li>
+    <ol>
+      <li>리스트4-3</li>
+      <li>리스트4-4</li>
+    </ol>
+</ul>
+```
+
+<ul>
+	<li>리스트1-1</li>
+	<li>리스트1-1</li>
+	<li>리스트1-1</li>
+	  <ol>
+		  <li>리스트4-3</li>
+		  <li>리스트4-4</li>
+		</ol>
+</ul>
+
 
 #### 그 이외
 
 리스트를 만든 상태에서 바로 아래에 스페이스 두번정도의 공백(  )을 한 뒤 리스트(\-)를 사용하면 기존 리스트의 하위 리스트를 만들수 있다.
+
+```
+- 리스트1
+  * 리스트2
+    1. 리스트3
+```
+
 - 리스트1
   * 리스트2
     1. 리스트3
@@ -146,9 +196,17 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 ---
 
 ## Task lists
+
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| | | 체크박스 |
+| \- \[ ] | | 체크박스\(false\) |
+| \- \[x] | | 체크박스\(true\) |
+
+- [ ] 체크박스\(false\)
+
+- [x] 체크박스\(true\)
+
+[GitHub Task Lists](https://help.github.com/articles/about-task-lists/)
 
 ---
 
@@ -219,15 +277,27 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 ## Image
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \!\[제목]\(주소) | | 이미지 출력 |
+| \!\[제목]\(주소, 확장자명) | &lt;img alt\=\"제목\" src\=\"주소, 확장자명\" \/&gt; | 이미지 출력 |
 
 #### 잘못된 예
 
 ![제목](주소)
 
-#### 올바른 예
+#### 올바른 예\(Markdown Syntax\)
+
+```
+![ImageExample](https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/Image%20Example.PNG?raw=true)
+```
 
 ![ImageExample](https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/Image%20Example.PNG?raw=true)
+
+#### 올바른 예\(HTML Tag\)
+
+```
+<img alt="ImageExample" src="https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/Image%20Example.PNG?raw=true" />
+```
+
+<img alt="ImageExample" src="https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/Image%20Example.PNG?raw=true" />
 
 ---
 
@@ -240,8 +310,8 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \-\-\- | &lt;hr/&gt; | 수평선 |
-| \*\*\* | &lt;hr/&gt; | 수평선 |
-| \_\_\_ | &lt;hr/&gt; | 수평선 |
+| \*\*\* | 위와 같음 | 수평선 |
+| \_\_\_ | 위와 같음 | 수평선 |
 
 ---
 
@@ -348,3 +418,4 @@ Footnotes
 - [GitHub](https://help.github.com/categories/writing-on-github/)
 - [Github-cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
 -  [Markdown:Syntax](https://daringfireball.net/projects/markdown/syntax)
+- [Wikipedia-Markdown](https://en.wikipedia.org/wiki/Markdown)
