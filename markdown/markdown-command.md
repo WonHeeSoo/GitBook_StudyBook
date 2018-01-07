@@ -55,9 +55,7 @@
 | \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
 | \~아랫첨자\~ | &lt;sub&gt;아랫첨자&lt;/sub&gt; | 아랫첨자 |
 ||&lt;small&gt;작은 글씨&lt;/small&gt;|작은 글씨|
-|\=\=강조\=\=||강조|
-
-
+|\=\=강조\=\=||강조(형광펜느낌)|
 
 _이탤릭체_
 
@@ -71,7 +69,7 @@ _이탤릭체_
 
 <small>작은 글씨</small>
 
-==gg==
+==강조==
 
 ---
 
@@ -413,6 +411,7 @@ teams within an organization\.
 ---
 
 Footnotes
+git 과정 하위로 git command 만들기
 
 ### 참고
 - [GitHub](https://help.github.com/categories/writing-on-github/)
