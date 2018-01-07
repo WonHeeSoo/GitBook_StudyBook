@@ -1,13 +1,13 @@
 # Markdown Command
 
 현재 추가 중입니다.  
-[GitBook Public Study Book](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
+[GitBook Study Book](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
 
 본인이 사용하는 마크다운 도구에 따라 사용이 불가한 방법도 있습니다.
 
 ---
 
-## Headings.
+## Headings
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
@@ -71,20 +71,20 @@ _이탤릭체_
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
-| \`M인용 코드1\` | &lt;code&gt;H인용 코드1&lt;/code&gt; | 인용 코드1 |
-| \`\`\`C++(해당언어)          M인용 코드2\`\`\` | &lt;pre&gt;H인용 코드2&lt;/pre&gt; | 인용 코드2 |
-| \`\`\`C++(해당언어)          M인용 코드3\`\`\` | &lt;pre&gt;&lt;code&gt;H인용 코드3&lt;/code&gt;&lt;/pre&gt; | 인용 코드3 |
+| \`Mark인용 코드1\` | &lt;code&gt;Tag인용 코드1&lt;/code&gt; | 인용 코드1 |
+| \`\`\`C++(해당언어)          Mark인용 코드2\`\`\` | &lt;pre&gt;Tag인용 코드2&lt;/pre&gt; | 인용 코드2 |
+| \`\`\`C++(해당언어)          Mark인용 코드3\`\`\` | &lt;pre&gt;&lt;code&gt;Tag인용 코드3&lt;/code&gt;&lt;/pre&gt; | 인용 코드3 |
 
-`M인용 코드1`
+`Mark인용 코드1`
 
-<code>H인용 코드1</code>
+<code>Tag인용 코드1</code>
 
 ```C++
-M인용 코드2
+Mark인용 코드2
 ```
-<pre>H인용 코드2</pre>
+<pre>Tag인용 코드2</pre>
 
-<pre><code>H인용 코드3</code></pre>
+<pre><code>Tag인용 코드3</code></pre>
 
 ---
 
@@ -302,6 +302,7 @@ ___
 ## Username @mentions \( GitHub Flavored Markdown \)
 
 `@유저닉네임`을 사용하면 그 유저닉네임을 가진 사람에게 댓글을 보도록 알릴 수 있습니다.
+
 혹은 조직 내의 팀에게도 사용 가능합니다.
 
 #### 원문
