@@ -30,14 +30,20 @@
 
 ###### 헤더6
 
-혹은
+#### 그 이외
 
 헤더1
 
 ==
 
+헤더1
+==
+
 헤더2
 
+--
+
+헤더2
 --
 
 ---
@@ -301,6 +307,7 @@ https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html
 
 ## Video
 
+
 ---
 
 ## Horizontal Rules
@@ -403,15 +410,13 @@ teams within an organization\.
 [EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
 ---
+#### Footnotes
 
 | Markdown Syntax | HTML Tag | Description |
 | :--- | :--- | :--- |
 | \[^1\] |  | 각주 |
 
 ---
-
-Footnotes
-git 과정 하위로 git command 만들기
 
 ### 참고
 - [GitHub](https://help.github.com/categories/writing-on-github/)
