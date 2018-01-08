@@ -10,7 +10,8 @@
 
 ## Git
 
-* [Git Command](git/git-command.md)
+* [Git](git/git.md)
+  * [Git Command](git/git-command.md)
 
 ## GitHub
 
@@ -30,4 +31,6 @@
 ## Help & Link
 
 * [Links](help-and-link/links.md)
+
+
 
