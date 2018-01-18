@@ -1,4 +1,4 @@
-# Markdown Command
+# Markdown Syntax
 
 현재 추가 중입니다.  
 [GitBook Study Book](https://wonheesoo.gitbooks.io/study-book/content/markdown/markdown-command.html)
@@ -56,6 +56,7 @@
 | \_이탤릭체\_ | 위와 같음 | 이탤릭체(Italic) |
 | \*\*볼드체\*\* | &lt;string&gt;볼드체&lt;/string&gt; | 볼드체(Bold) |
 | \_\_볼드체\_\_ | 위와 같음 | 볼드체(Bold) |
+||&lt;u&gt;밑줄&lt;/u&gt;|밑줄|
 |\~\~취소선\~\~|&lt;del&gt;취소선&lt;/del&gt;| 취소선 |
 | 위와 같음 |&lt;strike&gt;취소선&lt;/strike&gt;| 취소선 |
 | \^윗첨자\^ | &lt;sup&gt;윗첨자&lt;/sup&gt; | 윗첨자 |
@@ -66,6 +67,8 @@
 _이탤릭체_
 
 **볼드체**
+
+<u>밑줄</u>
 
 ~~취소선~~
 
