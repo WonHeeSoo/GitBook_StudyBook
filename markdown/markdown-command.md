@@ -575,7 +575,7 @@ Vimeo의 경우 이미지 주소 뒤에 `_가로x세로.jpg`를 붙이면 원하
 
 ### Vimeo 특정 시간대 영상 재생하기
 
-[![Young Marco](https://i.vimeocdn.com/video/625196300_560x290.jpg)](hhttps://vimeo.com/209607366#t=3s)
+[![Young Marco](https://i.vimeocdn.com/video/625196300_560x290.jpg)](https://vimeo.com/209607366#t=3s)
 `[![Young Marco](https://i.vimeocdn.com/video/625196300_560x290.jpg)](https://vimeo.com/209607366#t=3s)`
 
 Vimeo는 영상 주소 뒤에 `#t=시간`을 붙이면 됩니다. Youtube와 마찬가지로 default값은 초(Seconds)이며 `m`, `h`를 사용할 수 있으며 Youtube처럼 `#t=1m20s` 이런 식으로 섞을 수 있습니다.
