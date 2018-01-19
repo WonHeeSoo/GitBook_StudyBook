@@ -513,7 +513,7 @@ Markdwon은 기본적으로 동영상을 지원하지 않으나 도구에 따라
 
 원하는 영상을 검색한뒤 Youtube Video Thumbnail이 작동하는 영상을 마우스 우클릭을 해 이미지 주소 복사를 합니다.
 
-![Youtube Video Thumbnail Mobile](/images/PostImages/Markdown1/YoutubeVideoThumbnailMobileImage.png)
+![Youtube Video Thumbnail Mobile](https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/YoutubeVideoThumbnailMobileImage.png?raw=true)
 
 모바일의 경우 Video Thumbnail이 보이지 않습니다.
 
