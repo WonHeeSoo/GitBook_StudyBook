@@ -507,15 +507,17 @@ Markdwon은 기본적으로 동영상을 지원하지 않으나 도구에 따라
 [![BTS DNA Youtube/sddefault](https://img.youtube.com/vi/MBdVXkSdhwU/maxresdefault.jpg)](https://www.youtube.com/watch?v=MBdVXkSdhwU)
 
 ### Youtube Video Thumbnail을 사용하는 방법
-
+<!--
 [![Everything Is AWESOME](https://i.ytimg.com/an_webp/MBdVXkSdhwU/mqdefault_6s.webp?du=3000&sqp=CJmTg9MF&rs=AOn4CLDAp7iix1IMI4mn2VTQzd5SBz9lmA)](https://www.youtube.com/watch?v=MBdVXkSdhwU)
 `[![Everything Is AWESOME](https://i.ytimg.com/an_webp/MBdVXkSdhwU/mqdefault_6s.webp?du=3000&sqp=CJmTg9MF&rs=AOn4CLDAp7iix1IMI4mn2VTQzd5SBz9lmA)](https://www.youtube.com/watch?v=MBdVXkSdhwU)`
 
 원하는 영상을 검색한뒤 Youtube Video Thumbnail이 작동하는 영상을 마우스 우클릭을 해 이미지 주소 복사를 합니다.
 
-![Youtube Video Thumbnail Mobile](https://github.com/WonHeeSoo/GitBook_StudyBook/blob/master/image/YoutubeVideoThumbnailMobileImage.png?raw=true)
+![Youtube Video Thumbnail Mobile](/images/PostImages/Markdown1/YoutubeVideoThumbnailMobileImage.png)
 
 모바일의 경우 Video Thumbnail이 보이지 않습니다.
+-->
+Video Thumbnail 주소가 스스로 변경됨으로 인하여 보류
 
 ### Youtube 특정 시간대 영상 재생하기
 
