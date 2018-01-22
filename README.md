@@ -10,4 +10,4 @@
 * #### Coding Convention
 * #### Help & Link
 
-# [작성자 블로그](https://wonheesoo.github.io/)
+# [작성자의 블로그로 이동](https://wonheesoo.github.io/)

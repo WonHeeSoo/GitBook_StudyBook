@@ -7,14 +7,13 @@
 
 Markdown Syntax를 정리하면서 참고한 곳들은 다음과 같습니다.
 
-- [GitHub](https://help.github.com/categories/writing-on-github/)
-- [Github-cheatsheet](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
--  [Markdown:Syntax](https://daringfireball.net/projects/markdown/syntax)
-- [Wikipedia-Markdown](https://en.wikipedia.org/wiki/Markdown)
-- [markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#youtube-videos)
-- [유튜브의 동영상 썸네일 가져오기](http://superkts.pe.kr/helper/view.php?seq=V&seq=377)
-- [StackOverflow: Is it possible to embed Youtube/Vimeo videos in Markdown using a C# Markdown library
-](https://stackoverflow.com/questions/14192709/is-it-possible-to-embed-youtube-vimeo-videos-in-markdown-using-a-c-sharp-markdow/29862668#29862668)
+- https://help.github.com/categories/writing-on-github/
+- https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
+- https://daringfireball.net/projects/markdown/syntax
+- https://en.wikipedia.org/wiki/Markdown
+- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#youtube-videos
+- http://superkts.pe.kr/helper/view.php?seq=V&seq=377
+- https://stackoverflow.com/questions/14192709/is-it-possible-to-embed-youtube-vimeo-videos-in-markdown-using-a-c-sharp-markdow/29862668#29862668
 
 
 
