@@ -8,6 +8,7 @@
 * #### Git
 * #### Github
 * #### Coding Convention
+* #### Markdown Syntax
 * #### Help & Link
 
 # [작성자의 블로그로 이동](https://wonheesoo.github.io/)

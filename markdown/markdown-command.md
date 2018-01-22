@@ -15,9 +15,6 @@ Markdown Syntax를 정리하면서 참고한 곳들은 다음과 같습니다.
 - http://superkts.pe.kr/helper/view.php?seq=V&seq=377
 - https://stackoverflow.com/questions/14192709/is-it-possible-to-embed-youtube-vimeo-videos-in-markdown-using-a-c-sharp-markdow/29862668#29862668
 
-
-
-
 ---
 
 ## Headings
